@@ -77,7 +77,7 @@ function App() {
 
         <Route path="/" element={<DashBoardLayout />}>
         
-          <Route exact index element={<Dashboard />} />
+          <Route  index element={<Dashboard />} />
 
           <Route path="items" element={<Items/>} /> 
           <Route path="Supplier" index element={<Supplier/>} /> 
