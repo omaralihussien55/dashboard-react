@@ -75,7 +75,7 @@ function App() {
       </Route>
         </Route> */}
 
-        <Route path="/" element={<DashBoardLayout />}>
+        <Route path="/dashboard-react" element={<DashBoardLayout />}>
         
           <Route exact index element={<Dashboard />} />
 

@@ -39,11 +39,11 @@ const iconSetting =<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="
 </svg>
 
 const SideBarArray = [
-{en:"Dashboard",ar:"لوحة التحكم",icon:chartIcon,arr:[],nav:"/"},
-{en:"Inventory",ar:"المخزون",icon:iconInventory,arr:[{en:"items",ar:"مواد المخزون",nav:"/items"},{en:"Supplier",ar:"الموردين",nav:"/Supplier"},{en:"Purchases",ar:"المشتريات",nav:"/Purchases"},{en:"warehouse",ar:"المخزن",nav:"/warehouse"},]},
-{en:"Manage",ar:"الادارة",icon:iconMange,arr:[{en:"coupons",ar:"الكوبونات",nav:"/coupons"},{en:"events",ar:"الاحداث",nav:"/events"},{en:"Gifts",ar:"الهدايا",nav:"/gift"}]},
-{en:"Menu",ar:"القائمة",icon:iconmenu,arr:[{en:"Products",ar:"المنتجات",nav:"/Products"},{en:"Modifiers",ar:"الاضافات",nav:"/Modifiers"}]},
-{en:"setting",ar:"الاعدادت",icon:iconSetting,arr:[],nav:"/setting"},
+{en:"Dashboard",ar:"لوحة التحكم",icon:chartIcon,arr:[],nav:"/dashboard-react"},
+{en:"Inventory",ar:"المخزون",icon:iconInventory,arr:[{en:"items",ar:"مواد المخزون",nav:"items"},{en:"Supplier",ar:"الموردين",nav:"Supplier"},{en:"Purchases",ar:"المشتريات",nav:"Purchases"},{en:"warehouse",ar:"المخزن",nav:"warehouse"},]},
+{en:"Manage",ar:"الادارة",icon:iconMange,arr:[{en:"coupons",ar:"الكوبونات",nav:"coupons"},{en:"events",ar:"الاحداث",nav:"events"},{en:"Gifts",ar:"الهدايا",nav:"gift"}]},
+{en:"Menu",ar:"القائمة",icon:iconmenu,arr:[{en:"Products",ar:"المنتجات",nav:"Products"},{en:"Modifiers",ar:"الاضافات",nav:"Modifiers"}]},
+{en:"setting",ar:"الاعدادت",icon:iconSetting,arr:[],nav:"setting"},
 ]
 
 const SideBar = ()=>{
